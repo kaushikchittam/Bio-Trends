@@ -1,0 +1,336 @@
+[{
+	"qualifID": "Q000000",
+	"definition": ""
+},
+{
+	"qualifID": "Q000002",
+	"definition": "abnormalities"
+},
+{
+	"qualifID": "Q000008",
+	"definition": "administration & dosage"
+},
+{
+	"qualifID": "Q000009",
+	"definition": "adverse effects"
+},
+{
+	"qualifID": "Q000031",
+	"definition": "analogs & derivatives"
+},
+{
+	"qualifID": "Q000032",
+	"definition": "analysis"
+},
+{
+	"qualifID": "Q000033",
+	"definition": "anatomy & histology"
+},
+{
+	"qualifID": "Q000037",
+	"definition": "antagonists & inhibitors"
+},
+{
+	"qualifID": "Q000096",
+	"definition": "biosynthesis"
+},
+{
+	"qualifID": "Q000097",
+	"definition": "blood"
+},
+{
+	"qualifID": "Q000098",
+	"definition": "blood supply"
+},
+{
+	"qualifID": "Q000134",
+	"definition": "cerebrospinal fluid"
+},
+{
+	"qualifID": "Q000138",
+	"definition": "chemical synthesis"
+},
+{
+	"qualifID": "Q000139",
+	"definition": "chemically induced"
+},
+{
+	"qualifID": "Q000145",
+	"definition": "classification"
+},
+{
+	"qualifID": "Q000150",
+	"definition": "complications"
+},
+{
+	"qualifID": "Q000151",
+	"definition": "congenital"
+},
+{
+	"qualifID": "Q000166",
+	"definition": "cytology"
+},
+{
+	"qualifID": "Q000172",
+	"definition": "deficiency"
+},
+{
+	"qualifID": "Q000175",
+	"definition": "diagnosis"
+},
+{
+	"qualifID": "Q000176",
+	"definition": "diagnostic use"
+},
+{
+	"qualifID": "Q000178",
+	"definition": "diet therapy"
+},
+{
+	"qualifID": "Q000187",
+	"definition": "drug effects"
+},
+{
+	"qualifID": "Q000188",
+	"definition": "drug therapy"
+},
+{
+	"qualifID": "Q000191",
+	"definition": "economics"
+},
+{
+	"qualifID": "Q000193",
+	"definition": "education"
+},
+{
+	"qualifID": "Q000196",
+	"definition": "embryology"
+},
+{
+	"qualifID": "Q000201",
+	"definition": "enzymology"
+},
+{
+	"qualifID": "Q000208",
+	"definition": "ethnology"
+},
+{
+	"qualifID": "Q000209",
+	"definition": "etiology"
+},
+{
+	"qualifID": "Q000235",
+	"definition": "genetics"
+},
+{
+	"qualifID": "Q000254",
+	"definition": "growth & development"
+},
+{
+	"qualifID": "Q000266",
+	"definition": "history"
+},
+{
+	"qualifID": "Q000276",
+	"definition": "immunology"
+},
+{
+	"qualifID": "Q000293",
+	"definition": "injuries"
+},
+{
+	"qualifID": "Q000294",
+	"definition": "innervation"
+},
+{
+	"qualifID": "Q000295",
+	"definition": "instrumentation"
+},
+{
+	"qualifID": "Q000302",
+	"definition": "isolation & purification"
+},
+{
+	"qualifID": "Q000331",
+	"definition": "legislation & jurisprudence"
+},
+{
+	"qualifID": "Q000364",
+	"definition": "manpower"
+},
+{
+	"qualifID": "Q000378",
+	"definition": "metabolism"
+},
+{
+	"qualifID": "Q000379",
+	"definition": "methods"
+},
+{
+	"qualifID": "Q000382",
+	"definition": "microbiology"
+},
+{
+	"qualifID": "Q000401",
+	"definition": "mortality"
+},
+{
+	"qualifID": "Q000451",
+	"definition": "nursing"
+},
+{
+	"qualifID": "Q000453",
+	"definition": "epidemiology"
+},
+{
+	"qualifID": "Q000458",
+	"definition": "organization & administration"
+},
+{
+	"qualifID": "Q000469",
+	"definition": "parasitology"
+},
+{
+	"qualifID": "Q000472",
+	"definition": "pathogenicity"
+},
+{
+	"qualifID": "Q000473",
+	"definition": "pathology"
+},
+{
+	"qualifID": "Q000493",
+	"definition": "pharmacokinetics"
+},
+{
+	"qualifID": "Q000494",
+	"definition": "pharmacology"
+},
+{
+	"qualifID": "Q000502",
+	"definition": "physiology"
+},
+{
+	"qualifID": "Q000503",
+	"definition": "physiopathology"
+},
+{
+	"qualifID": "Q000506",
+	"definition": "poisoning"
+},
+{
+	"qualifID": "Q000517",
+	"definition": "prevention & control"
+},
+{
+	"qualifID": "Q000523",
+	"definition": "psychology"
+},
+{
+	"qualifID": "Q000528",
+	"definition": "radiation effects"
+},
+{
+	"qualifID": "Q000530",
+	"definition": "radiography"
+},
+{
+	"qualifID": "Q000531",
+	"definition": "radionuclide imaging"
+},
+{
+	"qualifID": "Q000532",
+	"definition": "radiotherapy"
+},
+{
+	"qualifID": "Q000534",
+	"definition": "rehabilitation"
+},
+{
+	"qualifID": "Q000556",
+	"definition": "secondary"
+},
+{
+	"qualifID": "Q000557",
+	"definition": "secretion"
+},
+{
+	"qualifID": "Q000592",
+	"definition": "standards"
+},
+{
+	"qualifID": "Q000600",
+	"definition": "supply & distribution"
+},
+{
+	"qualifID": "Q000601",
+	"definition": "surgery"
+},
+{
+	"qualifID": "Q000627",
+	"definition": "therapeutic use"
+},
+{
+	"qualifID": "Q000628",
+	"definition": "therapy"
+},
+{
+	"qualifID": "Q000633",
+	"definition": "toxicity"
+},
+{
+	"qualifID": "Q000635",
+	"definition": "transmission"
+},
+{
+	"qualifID": "Q000637",
+	"definition": "transplantation"
+},
+{
+	"qualifID": "Q000639",
+	"definition": "trends"
+},
+{
+	"qualifID": "Q000648",
+	"definition": "ultrastructure"
+},
+{
+	"qualifID": "Q000652",
+	"definition": "urine"
+},
+{
+	"qualifID": "Q000656",
+	"definition": "utilization"
+},
+{
+	"qualifID": "Q000662",
+	"definition": "veterinary"
+},
+{
+	"qualifID": "Q000706",
+	"definition": "statistics & numerical data"
+},
+{
+	"qualifID": "Q000736",
+	"definition": "ultrasonography"
+},
+{
+	"qualifID": "Q000737",
+	"definition": "chemistry"
+},
+{
+	"qualifID": "Q000744",
+	"definition": "contraindications"
+},
+{
+	"qualifID": "Q000819",
+	"definition": "agonists"
+},
+{
+	"qualifID": "Q000821",
+	"definition": "virology"
+},
+{
+	"qualifID": "Q000941",
+	"definition": "ethics"
+}]

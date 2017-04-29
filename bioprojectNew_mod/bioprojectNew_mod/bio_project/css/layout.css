@@ -1,0 +1,96 @@
+/* gene mutations table */
+
+#geneTable
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#geneTable td, #geneTable th 
+{
+font-size:1em;
+border:1px solid #787878;
+padding:3px 7px 2px 7px;
+}
+#geneTable th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#EE7F2D;
+color:#ffffff;
+}
+#geneTable tr.alt td 
+{
+color:#000000;
+background-color:#F0F0F0;
+}
+
+/* body of pages */
+
+html, body { margin: 0; padding: 0; }
+body { background: #ddd; color: #333; font: normal 85%/1.3 Arial,Helvetica,sans-serif; }
+:link, :visited { color: #c10000; text-decoration: none; }
+:link:hover, :visited:hover { text-decoration: underline; }
+:link img, :visited img { border: none; }
+h1 { color: #666;
+  font: normal xx-large/1.5 Georgia,serif; margin: 0 0 .5em;
+}
+
+h2 { color: #000000;
+  font: bold medium Georgia,serif; margin: 0 0 .5em;
+}
+
+h3 { color: #000000;
+  font: bold small Georgia,serif; margin: 0 0 .5em;
+}
+
+blockquote { font-style: italic; }
+form table { margin-bottom: 1em; }
+form table tbody th { font-weight: normal; padding-top: .3em; text-align: right;
+  vertical-align: top;
+}
+form label { color: #666; font-size: 90%; }
+
+#wrap { background: #fff; /*width: 700px;*/ margin: 30px auto; }
+#content { border-left: 20px solid #EE7F2D; min-height: 240px; padding: 10px; }
+#header img { float: right; margin-top: -21px; margin-right: -37px; }
+
+#footer { background: #000000; border-top: 2px solid #333; font-size: x-small;
+  padding: 3px; text-align: center;
+}
+#footer hr { display: none; }
+.legalese { color: #FFFFFF; margin: 0; }
+
+ol.links li .info { font-size: 85%; }
+ol.links li .info :link, ol.links li .info :visited { color: #666; }
+
+ul.comments { list-style: none; margin: 1em 0; padding: 0 0 0 1em; }
+ul.comments li { color: #999; margin: 0 0 1em; }
+ul.comments blockquote { color: #333; font-style: normal; margin: 0;
+  padding: 0;
+}
+.action:link, .action:visited { background: #F8F8FF; border: 1px outset #ddd;
+  color: #000000; font-size: 90%; padding: 0 .3em;
+}
+.action:link:hover, .action:visited:hover { background: #e8e8e8;
+  border-color: #aaa; color: #000; text-decoration: none;
+}
+
+form p.hint { color: #666; font-size: 90%; font-style: italic; margin: 0; }
+form .error { color: #b00; }
+
+.jmolRadioGroup{
+	margin-bottom:3px;
+}
+
+#VisualizationKey{
+	margin-left:20px;
+	margin-bottom:10px;
+}
+
+#Mutation{
+	margin-left:20px;
+	margin-right:20px;
+}

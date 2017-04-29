@@ -1,0 +1,31 @@
+/*custom css*/
+/*body{font-size:13px;}*/
+.container{margin:0 auto; max-width:90%;background-color:#ccc}
+.header{text-align:center;}
+.results{clear:both;width:100%}
+#wait{
+	display:none;
+	border:1px solid black;
+	position:absolute;
+	top:50%;
+	left:50%;
+	padding:2px;
+
+}
+.DialogMask{
+	padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor-pointer:none;
+    background-color: #CCC !important;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    -moz-opacity: .5;
+    opacity: .5;
+}
+.opaque-class{
+ opacity: 0.5;
+ filter: Alpha(opacity=50);
+}

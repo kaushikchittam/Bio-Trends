@@ -1,0 +1,99 @@
+select pubmedID from records where meshID="D000003"
+
+pubmedID
+21063729
+21411936
+21439232
+
+select count(year) from articles  where pubmedID="21411936"
+
+count(year)
+1
+
+SELECT COUNT(year)
+FROM records
+JOIN articles
+ON records.pubmedID=articles.pubmedID;
+
+
+SELECT COUNT(year) FROM records JOIN articles ON records.pubmedID=articles.pubmedID where records.meshID="D000003"
+
+COUNT(year)
+3
+
+keyword:D000006
+keywordQualifer:Q000031
+
+SELECT COUNT(year) FROM records JOIN articles ON records.pubmedID=articles.pubmedID where records.meshID="D000006" and records.qualifID="Q000031"
+
+COUNT(year)
+0
+
+SELECT COUNT(year) FROM records JOIN articles ON records.pubmedID=articles.pubmedID WHERE records.meshID ='D000013'AND year ='1995'
+select pubmedID from records where meshID='D000013'
+select distinct(pubmedID) from records where meshID='D000013' 
+
+SELECT * FROM `records` WHERE `meshID`='k2' and `qualifID`='q2'
+
+SELECT * FROM `records` group by pubID having meshID in ('k2')
+
+
+kw =[u'D000002', u'D000003'] qualif =[u'Q000000', u''] & type= all & notinclude =11
+
+new 
+===============================
+SELECT `pubID` FROM `records` WHERE `meshID`='k1' and `qualifID` ='q1'
+
+pubID
+p1
+p2
+p3
+
+SELECT id
+FROM subject_attribute
+WHERE (attribute = 'des_sen' AND numerical_value >= 2.0) or
+      (attribute = 'tough'   AND numerical_value >= 3.5) or
+...
+group by id
+having count(distinct attribute) = N;
+
+Intersection:
+SELECT pubID
+FROM records
+WHERE (meshID = 'k1' AND qualifID = 'q1') or
+      (meshID = 'k2' AND qualifID = 'q2') or
+	  (meshID = 'k3' AND qualifID = 'q3')	   
+group by pubID
+having count(distinct meshID) = 3 ;
+Result:
+pubID
+p1
+p3
+
+Union:
+SELECT pubID
+FROM records
+WHERE (meshID = 'k1' AND qualifID = 'q1') or
+      (meshID = 'k2' AND qualifID = 'q2') or
+	  (meshID = 'k3' AND qualifID = 'q3')	   
+group by pubID;
+
+Result:
+pubID
+p1
+p2
+p3
+
+intersection:
+SELECT year, COUNT(year)
+         FROM arti where pubID in ('p1','p3')
+         GROUP BY year;
+union:
+SELECT year, COUNT(year)
+         FROM arti where pubID in ('p1','p3','p2')
+         GROUP BY year
+
+Single search response at server		 
+kw =D000001 qualif =Q000000 & type= all & notinclude =0 
+Multile search server 	 
+kw =[u'D000001', u'D000002'] qualif =[u'Q000000', u'Q000009'] & type= all & notinclude =[u'on', u'01']

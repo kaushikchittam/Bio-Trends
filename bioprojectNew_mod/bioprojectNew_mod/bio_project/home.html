@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bio Project</title>
+
+<link rel="stylesheet" href="css/chosen.css" type="text/css">
+<link rel="stylesheet" href="css/custom.css" type="text/css">
+<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="js/chosen.jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script src="js/custom-old.js" type="text/javascript"></script>
+<!-- <script src="js/custom_arch.js" type="text/javascript"></script> -->
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>	
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+
+      google.charts.load('current', {'packages':['geochart']});
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'Ratio']
+        ]);
+
+        var options = {backgroundColor:'#fff',keepAspectRatio:true};
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+<body>  
+
+	<div class="container">	
+			<div class="header">
+				<h1>CanBind</h1>
+				<h4>Exploring protein binding sites mutated in cancer</h4>
+			</div>
+			
+			<div id="browseMutations" style="padding:20px;">
+			<div id="wait">
+				<img src='img/ajax-loader.gif' width="64" height="64" /><br>Loading..</div>
+				<form name="chooseGene" action="" method="post" id ="geneForm">
+					<h4>Match 
+						<select name="query_type" id="query_type" class="input-sm form-control">
+							<option value="all">all</option>
+							<option value="any">any</option>
+						</select> of the conditions below:
+					</h4>
+					<select  name="fromYear" id="fromYear">
+						
+					</select>
+					<select  name="toYear" id="toYear">
+						
+					</select>
+
+					<h5>Select a keyword from the list</h5>
+					<select name="keyword" data-placeholder="Select a keyword" class="chzn-select" style="width:250px;"></select>
+					<select name="keywordQualifer" data-placeholder="Select a qualifier" class="chzn-select-quailifier" style="width:250px;"></select>			
+					<input type="checkbox" id="cbox2" name="notInclude"hidden> 
+					<label for="cbox2" hidden>Not Include</label>
+					<br> <br>
+					<div id="addedSearch"></div>
+					<br> <br>
+					<input type="button" value="Add Search Condition" id="addButton">
+					<br> <br> <br>
+					<input type="submit" value="Submit" id="submitBtn"  disabled="disabled">
+					<input type="reset" value="Clear" id="resetBtn">
+				</form>
+				<p>The below are the results based upon your search criteria.</p>
+			</div>
+			<div class="results">
+			<div id="graph" style="float:left;width:90%;border:1px solid #ccc;padding:20px;margin:20px">
+				This shows time vs space graph
+			<div id="timeGraphContainer" style="height: 500px;margin:0 auto;width:90%"></div>
+			
+			<div id="checkDiv" style="display:none;">
+				<input type="checkbox" id="checkPersist" class="checkPersist"><label for="checkPersist">use persistent behaviour</label>
+			</div>
+				<div id="msgDivGenes" style=""></div>
+				<div id="msgDivQualif"></div>
+			</div>
+			
+			<div id="regions_div"style="float:left;width:90%;height:500px;border:1px solid #ccc;padding:20px;margin:20px">
+			This shows Mapview of the data
+			</div>
+			</div>
+	</div>
+</body>
+</html>
